@@ -144,9 +144,6 @@ contactBtn.addEventListener('click', function () {
   }
   else {
     location.href = "contactInfo.html"
-    error1.style.display = "none";
-    error2.style.display = "none";
-    error3.style.display = "none";
     let user = {
       fullName: document.getElementById("Fname").value,
       email: document.getElementById("email").value,
