@@ -1,5 +1,5 @@
 # Ran-portfolio
-Hey everyone,this is my portfolio, its tells about and my abillities,and here you can see my projects.
+Hey everyone,this is my portfolio, its tells about me and my abillities,and here you can see my projects.
 im open to have a suggests and reviews about it.
 hope you like it.
 
