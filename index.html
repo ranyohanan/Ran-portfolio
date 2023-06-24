@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ran Yohanan</title>
+</head>
+
+<body>
+
+    <div id="nav">
+        <nav>
+            <div id="hamburger">&#9776;</div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#sec2">About Me</a></li>
+                <li><a href="#sec3">My Abilities</a></li>
+                <li><a href="#sec4">My Projects</a></li>
+                <li><a href="#sec5">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="container">
+        <div id="main">
+            <div id="popupWrapper">
+                <div id="popup">
+
+                </div>
+            </div>
+            <div id="sec1">
+                <h1 class="fade-in">Welcome to Ran's Portfolio <i class="fa-solid fa-laptop-code"
+                        style="color: #22b455;"></i></h1><br>
+                <p class="fade-in2">This your last chance.</p>
+                <p class="fade-in2">After this, there is no turning back.</p>
+                <p class="fade-in2"> You take the blue pill, the story ends.</p>
+                <p class="fade-in2">You take the red pill, you stay in Wonderland, and I show you how deep the rabbit
+                    hole goes.</p>
+            </div>
+
+            <div id="pills">
+                <div id="redPill"></div>
+                <div id="bluePill"></div>
+            </div>
+            <div id="sec2">
+                <div id="about">
+                    <h2>Hey Everyone, I'm Ran Yohanan</h2>
+                    <p>I'm a Fullstack web Developer, and this is what you need to know about me
+                    </p>
+                </div>
+                <div id="abouts">
+                    <div id="abouts1"></div>
+                    <img src="images/ranAI.jpg" id="ranAi"
+                        style="width:25vw; height:50vh; position: relative; top: 8vh; left:8vw; border:1px solid #80ce87; background-color: #020204; border-radius: 10px;">
+                </div>
+            </div>
+            <div id="sec3">
+                <div class="headers" id="abilitiesHeader">
+                    <h2>My Abilities <i class="fa-solid fa-dna" style="color: #22b455;"></i></h2>
+                </div>
+                <div id="abilities">
+                    <div id="abilities1">
+                        <div class="about2">
+                            <h2>My Languages</h2>
+                        </div>
+                        <div id="boxes"></div>
+                    </div>
+                    <div id="abilities2">
+                        <div class="moreTech" id="moreTech"></div>
+                        <div class="resume"><i class="fa-regular fa-id-card" style="color: #22b455;"></i>
+                            <button id="downloadButton" onclick="downloadFile()" class="btn">Download Resume</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sec4">
+                <div class="headers">
+                    <h2>My Projects</h2>
+                </div>
+                <div id="projects">
+                    <div id="projectsRow1"></div>
+                    <div id="projectsRow2"></div>
+                </div>
+            </div>
+            <div id="sec5">
+                <div class="headers">
+                    <h2>Contact</h2>
+                </div>
+                <div id="forms">
+                    <div id="form">
+                        <div class="inputs"><input type="text" id="Fname" placeholder="Full Name"
+                                class="inputsCss"><span for="" id="error1"></span>
+                        </div>
+                        <div class="inputs"><input type="email" id="email" placeholder="Email" class="inputsCss"><span
+                                for="" id="error2"></span>
+                        </div>
+                        <div class="inputs"><textarea name="" id="tArea" cols="30" rows="10" placeholder="Your Message"
+                                class="inputsCss" style="height: 30vh;"></textarea><span for="" id="error3"></span>
+                        </div>
+                        <button id="contactBtn" class="btn">Send Message</button>
+                    </div>
+                    <div class="moreTech" id="contactSec">
+                        <div id="phoneAndEmail">
+                            <h2>Alternative Contact</h2>
+                            <div>
+                                <p class="pabout" id="pContact"><a href="tel:0558822746"><i
+                                            class="fa-solid fa-phone fa-sm" style="color:#22b455;"></i> 055-8822746</a>
+                                </p>
+                                <p class="pabout" id="pContact2"><a href="mailto:yohananran3@gmail.com"><i
+                                            class="fa-solid fa-at fa-sm" style="color:#22b455;"></i>
+                                        yohananran3@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div id="socialMedia" style="margin-top: 5vh;">
+                            <h2>Social Media</h2>
+                            <div id="mediaIcons"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="copyRights">
+                <p style="font-size: 1rem; font-family: 'Teko', sans-serif;">&#169 This site was created by Ran Yohanan
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
