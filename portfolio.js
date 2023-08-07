@@ -106,7 +106,6 @@ class ProjectDetails {
 
 let projects = [
   new ProjectDetails("images/mardiScreenShot.jpg", "Mardi Gras", "Mardi Gras festival information site", "HTML5,CSS,JavaScript,     Bootstrap", "https://github.com/ranyohanan/Mardi-Gras-Project", "https://ransmardigras.netlify.app"),
-  new ProjectDetails("images/myAccount.jpg", "My Account", "A program that calculate your total incomes & outcomes", "HTML5,CSS,JavaScript,     Bootstrap", "https://github.com/ranyohanan/project-account", "https://myaccountbyran.netlify.app"),
   new ProjectDetails("images/ManageU.jpg", "ManageU", "The place for you to write down all your tasks", "HTML5,CSS,JavaScript,    TypeScript,Bootstrap", "https://github.com/ranyohanan/manageu", "https://ranyohananmanageu.netlify.app"),
   new ProjectDetails("images/serieA.jpg", "Serie A guess program", "Try to guess the right team!", "HTML5,CSS,JavaScript", "https://github.com/ranyohanan/serie-a", "https://seriaa-guess-ran.netlify.app"),
 ]
@@ -114,7 +113,7 @@ let projects = [
 for (let i = 0; i < 3; i++) {
   projects[i].getInfo1();
 }
-for (let i2 = 3; i2 < 4; i2++) {
+for (let i2 = 3; i2 < 6; i2++) {
   projects[i2].getInfo2();
 }
 
