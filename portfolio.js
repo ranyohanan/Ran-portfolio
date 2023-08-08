@@ -99,9 +99,6 @@ class ProjectDetails {
   getInfo1() {
     document.getElementById('projectsRow1').innerHTML += `<div><div class="projectTitle"><h3><a href="${this.site}" target="blank_">${this.name}</a><h3></div><div class="proBox"><h5>${this.name}</h5><p class="pProjects">${this.descrip}</p><p class="pProjects"><span class="pSpan">Coding Techniques</span> ${this.languages}</p><p class="pProjects"><a href="${this.git}" target="blank_"><span class="pSpan">Github<i class="fa-brands fa-github fa-sm" style="color:#22b455; margin-left:0.5rem"></i></span></a></p><img src="${this.image}" class="proImg"></div></div>`
   }
-  getInfo2() {
-    document.getElementById('projectsRow2').innerHTML += `<div><div class="projectTitle"><h3><a href="${this.site}" target="blank_">${this.name}</a><h3></div><div class="proBox"><h5>${this.name}</h5><p class="pProjects">${this.descrip}</p><p class="pProjects"><span class="pSpan">Coding Techniques</span> ${this.languages}</p><p class="pProjects"><a href="${this.git}" target="blank_"><span class="pSpan">Github<i class="fa-brands fa-github fa-sm" style="color:#22b455; margin-left:0.5rem"></i></span></a></p><img src="${this.image}" class="proImg"></div></div>`
-  }
 }
 
 let projects = [
@@ -113,9 +110,7 @@ let projects = [
 for (let i = 0; i < 3; i++) {
   projects[i].getInfo1();
 }
-for (let i2 = 3; i2 < 6; i2++) {
-  projects[i2].getInfo2();
-}
+
 
 //contact
 const contactBtn = document.getElementById('contactBtn');
@@ -179,12 +174,12 @@ let icons = [
   {
     icon: "fa-brands fa-github",
     link: "https://github.com/ranyohanan",
-  },
+  }
 
 ];
 
 
-for (let icon1 = 0; icon1 < 3; icon1++) {
+for (let icon1 = 0; icon1 < icons.length; icon1++) {
   document.getElementById('mediaIcons').innerHTML += `<a href="${icons[icon1].link}" target="blank_"><i class="${icons[icon1].icon}" style="color:#22b455;  margin-right:2vw"></i></a>`
 }
 
