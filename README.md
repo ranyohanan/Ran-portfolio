@@ -16,3 +16,8 @@ i used my HTML,CSS and JS techniques, and the portfolio includes all the details
  - Link: https://ranyohanan.netlify.app/#
 - App Language: English
 - Author: Ran Yohanan
+
+# Run Project
+```
+$ ccvv
+```
