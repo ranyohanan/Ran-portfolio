@@ -17,10 +17,3 @@ i used my HTML,CSS and JS techniques, and the portfolio includes all the details
 - App Language: English
 - Author: Ran Yohanan
 
-# Run Project
-```
-npm start
-```
-```
-json-server --watch db.json --port 8000
-```
